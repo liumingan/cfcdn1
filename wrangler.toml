@@ -5,7 +5,7 @@ compatibility_date = "2024-05-26"
 workers_dev = true
 
 [vars]
-# PROXYIP = "work1.homeip.us.eu.org, work2.homeip.us.eu.org, work3.homeip.us.eu.org, work4.homeip.us.eu.org"
+PROXYIP = "work1.homeip.us.eu.org, work2.homeip.us.eu.org, work3.homeip.us.eu.org, work4.homeip.us.eu.org"
 UUID = "84c983bc-36c7-4a5f-9fd7-2beec4cade9a"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
