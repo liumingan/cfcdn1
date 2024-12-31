@@ -10,7 +10,7 @@ mode = "smart"
 
 [vars]
 UUID = "84c983bc-36c7-4a5f-9fd7-2beec4cade9a"
-PROXYIP = "'work1.homeip.us.eu.org', 'work2.homeip.us.eu.org', 'work3.homeip.us.eu.org', 'work4.homeip.us.eu.org'"
+# PROXYIP = "'work1.homeip.us.eu.org', 'work2.homeip.us.eu.org', 'work3.homeip.us.eu.org', 'work4.homeip.us.eu.org'"
 # DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
