@@ -1,17 +1,11 @@
-name = "cfwork1" # todo
-#name = "cf-worker-connect-test" # todo
-#main = "test/worker/cf-cdn-cgi-trace2.js"
-#main = "test/worker/worker-connect-test.js"
+name = "cfworker1"
 main = "_worker.js"
-compatibility_date = "2023-05-26"
-
-[placement]
-mode = "smart"
+compatibility_date = "2024-05-26"
+# node_compat = true
+workers_dev = true
 
 [vars]
+# PROXYIP = "work1.homeip.us.eu.org, work2.homeip.us.eu.org, work3.homeip.us.eu.org, work4.homeip.us.eu.org"
 UUID = "84c983bc-36c7-4a5f-9fd7-2beec4cade9a"
-# PROXYIP = "'work1.homeip.us.eu.org', 'work2.homeip.us.eu.org', 'work3.homeip.us.eu.org', 'work4.homeip.us.eu.org'"
-# DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
-# NODE_ID = "1"
-# API_TOKEN = "example_dev_token"
-# API_HOST = "api.v2board.com"
+# SOCKS5 = "127.0.0.1:1080"
+# SOCKS5_RELAY = "true"
